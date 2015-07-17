@@ -4,7 +4,7 @@ simple-php7-vagrant
 A VERY simple Apache2/PHP7 environment provisioner for [Vagrant](http://www.vagrantup.com/).
 
 * Creates a running Apache2/PHP7 development environment with a few simple commands.
-* Runs on Ubuntu (Trusty 14.04 64 Bit) \w PHP7, MySQL 5.5, Apache 2.2
+* Runs on CentOS 7 \w PHP7, MariaDB 5.5, Apache 2.2
 
 ## Getting Started
 
@@ -12,10 +12,10 @@ A VERY simple Apache2/PHP7 environment provisioner for [Vagrant](http://www.vagr
 
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Install [Vagrant](http://www.vagrantup.com/)
-* Clone or [download](https://github.com/miguelbalparda/simple-php7-vagrant/archive/master.zip) this repository to the root of your project directory `git clone https://github.com/miguelbalparda/simple-php7-vagrant.git`
+* Clone or [download](https://github.com/miguelbalparda/simple-php7-vagrant-centos/archive/master.zip) this repository to the root of your project directory `git clone https://github.com/miguelbalparda/simple-php7-vagrant-centos.git`
 * In your project directory, run `vagrant up`
 
-The first time you run this, Vagrant will download the bare Ubuntu box image. This can take a little while as the image is a few-hundred Mb. This is only performed once.
+The first time you run this, Vagrant will download the bare CentOS box image. This can take a little while as the image is a few-hundred Mb. This is only performed once.
 
 Vagrant will configure the base system before downloading Magento and running the installer.
 
