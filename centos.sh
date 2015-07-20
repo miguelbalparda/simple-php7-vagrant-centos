@@ -2,6 +2,7 @@
 
 # Install Apache & PHP dependencies
 # --------------------
+sudo yum -y update
 sudo yum -y install httpd
 sudo systemctl start httpd.service
 sudo systemctl enable httpd.service
