@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of. We use CentOS
-  config.vm.box = "chef/centos-7.0"
+  config.vm.box = "bento/centos-7.1"
   config.vm.network "private_network", ip: "192.168.33.13"
   config.vm.provision :shell, :path => "centos.sh"
 
